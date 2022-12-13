@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    color: black;
+}
+
+.logo{
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 300px;
+    align-items: center;
+    padding-right: 180PX;
+}
+
+.logo_area{
+    background-color: rgb(255, 255, 255);
+}
+
+/*=====================
+Wellcome Area CSS 
+===================== */
+
+.welcome_area {
+    position: relative;
+    z-index: 2;
+    height: 900px;
+    overflow: hidden;
+}
+
+.welcome-text {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.btn{
+    margin-left: 20px;
+}
+.welcome-text > h2 {
+    color: #fff;
+    font-size: 66px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.welcome-text > p {
+    color: #fdfdfd;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-fixed {
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+/*  about css  */
+
+.about{
+    background-color: rgb(255, 255, 255);
+   height: 600px;
+   padding-top: 40px;
+}
+
+h1.content{
+font-size: 45px;
+font-weight: 700;
+
+}
+.about1{
+    margin-left: 20px;
+}
+.container mt-5{
+    padding-left: 5pc;
+}
+.about2{
+    font-size: 20px;
+    justify-content: center;
+}
+h2.content{
+    font-weight: 700;
+}
+.readmore{
+    align-items: center;
+}
+
+/*get_a_quote css  */
+
+
+.get_a_quote{
+    background-color: #166e9e;
+    height: 200px;
+    justify-content: center;
+    
+}
+
+
+
+/*All SERVICES LINK */
+
+.service_link{
+    
+    color: #166e9e;
+    text-decoration: none;
+}
+.cardarea{
+    padding-top: 60px;
+}
+.cardhead{
+    height: 100px;
+}
+.card-text{
+font-size: 20px;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+
+/*Chairman-area  */
+
+.Chairman-area{
+    height: 600px;
+    padding-top: 40px;
+}
+
+col-md-5 img{
+width: 500px;
+height: 600px;
+}
+
+.chairman2{
+    font-size: 20px;
+    justify-content: center;
+}
+.chair1{
+    
+}
